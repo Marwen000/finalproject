@@ -16,7 +16,7 @@ const { isAuthenticated }=useSelector(state=>state.Reducer)
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link to="/Avocat" href="Avocat">medcine</Nav.Link>
+            <Nav.Link to="/Medecin" href="Medecin">medcine</Nav.Link>
           {isAuthenticated ?(
            <Nav.Link to="/Profile" href="Profile">Profile</Nav.Link>
           ) : (null)}           

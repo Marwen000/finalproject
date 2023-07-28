@@ -23,7 +23,7 @@ function App() {
               </PrivateRoute>
             }
           />
-      <Route path='/Avocat' element={<Avocat />}  />
+      <Route path='/Medecin' element={<Avocat />}  />
       <Route path='/Signup' element={<Signup />}  />
       <Route path='/Signin' element={<Signin />}  />
     </Routes>

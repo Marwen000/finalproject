@@ -37,7 +37,7 @@ function Footer() {
     <hr />
     <div className='lastfooter'>
      <p>
-      &copy;{new Date().getFullYear()} LAWYER|  Developed by Marwen baccouche |
+      &copy;{new Date().getFullYear()} Medecin|  Developed by Marwen baccouche |
     </p> 
     </div>
     </div>
